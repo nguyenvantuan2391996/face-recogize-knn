@@ -23,7 +23,7 @@
  
 - Step 1 : Input : image need to predict information, it will be detected face and cropped image size 60x60
 - Step 2 : Using Sift algorithm to extract feature image => getting all descriptor of image ( m descriptor )
-- Step 3 : Classification descriptor. Each descriptor
+- Step 3 : Classification descriptor. Each descriptor.
             + Using Euclid distance to find k descriptor (step 2 tranning) which similar as descriptor are under review.
             + Descriptor will belong to class which has maximum descriptor similar as descriptor are under review
 - Step 4 : Loop step 3 ( m times )
